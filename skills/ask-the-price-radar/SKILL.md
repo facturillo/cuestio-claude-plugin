@@ -5,7 +5,7 @@ description: Answer questions about the prices Panama's online stores publish, t
 
 # Ask the Price Radar
 
-The Cuestio connector gives access to the prices that Panama's online stores publish on their own shops, read every day by the user's organization's Price Radar. These are online listings and prices, never sales. Its tools for prices and stores only read. Some other tools add or change something for the organization or the user. Use them only when the connector lists them and the user asks for the change. Use the tools' own totals and never add prices up by hand.
+The Cuestio connector gives access to the prices that Panama's online stores publish on their own shops, read every day by Cuestio and reached through the user's organization's Price Radar. These are online listings and prices, never sales. Eleven of its tools only read. Six others add or change something for the organization or the user (item 13 names them). Use those six only when the connector lists them and the user asks for the change. Use the tools' own totals and never add prices up by hand.
 
 ## Pick the right tool
 
@@ -28,6 +28,7 @@ The Cuestio connector gives access to the prices that Panama's online stores pub
 - Reply in the user's language.
 - Say things by their names. Never show tool names, ids, cursors or field names in the answer, and keep ids for your own later calls.
 - Prices are US dollars with two decimals ($1.25). A price per unit may carry three, never more, and is always said with its unit (per kilo, per litre, per unit, per dozen).
+- Say which stores the prices come from and the day they were read.
 - Say nothing about stock or availability unless the user asks. A store that publishes no stock has unknown stock, never out of stock and never assumed available.
 - Use the counts and totals the tools return. A page that holds N of M results is a part: when the answer needs the whole set (a total, a count, a list asked for whole, a month of changes), follow `cursor` and read every page first. When you answer from one page, say which part it is.
 - The scope the user already gave (products, store, competitors, basket, period) stays for the next questions unless they change it. Do not ask for it again.
