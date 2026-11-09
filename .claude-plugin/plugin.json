@@ -1,0 +1,16 @@
+{
+  "name": "cuestio",
+  "displayName": "Cuestio",
+  "version": "1.0.0",
+  "description": "Ask Claude about the prices Panama's online stores publish, through your organization's Price Radar in Cuestio: search products, compare stores, follow price changes, promotions and availability, read a price index and, when you ask, keep the shared watch list, baskets and CSV price reports, through the Cuestio connector.",
+  "icon": "./icon.png",
+  "author": { "name": "facturillo Inc.", "url": "https://cuestio.com/" },
+  "homepage": "https://cuestio.com/ai/",
+  "privacyPolicyUrl": "https://facturillo.com/privacy",
+  "termsOfServiceUrl": "https://facturillo.com/terms",
+  "documentationUrl": "https://cuestio.com/ai/",
+  "supportUrl": "https://cuestio.com/ai/",
+  "repository": "https://github.com/facturillo/cuestio-claude-plugin",
+  "license": "MIT",
+  "keywords": ["prices", "price monitoring", "retail", "supermarkets", "Panama", "price index"]
+}

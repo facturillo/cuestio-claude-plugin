@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cuestio": {
+      "type": "http",
+      "url": "https://mcp.cuestio.com/mcp"
+    }
+  }
+}
